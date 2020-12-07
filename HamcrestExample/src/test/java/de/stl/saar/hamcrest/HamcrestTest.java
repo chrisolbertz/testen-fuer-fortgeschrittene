@@ -55,7 +55,7 @@ class HamcrestTest {
 	public void testDescribedAs() {
 		int wert = 7;
 		assertThat(wert, describedAs(""
-				+ "Hier wird meine eigene Fehlermeldung angezeigt!", equalTo(8)));
+				+ "Hier wird meine eigene Fehlermeldung angezeigt! Der Fehler soll ausgeloest werden, um describedAs() zu demonstrieren.", equalTo(8)));
 	}
 	
 	@Test 
