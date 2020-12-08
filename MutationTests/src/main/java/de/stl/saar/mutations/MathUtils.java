@@ -25,11 +25,4 @@ public class MathUtils {
 
         return divisorSum;
     }
-    
-    public static boolean isEmpty(String bla) {
-    	if (bla.trim().isEmpty()) {
-    		return true;
-    	}
-    	return false;
-    }
 }

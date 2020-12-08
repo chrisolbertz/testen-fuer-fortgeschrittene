@@ -28,6 +28,8 @@ public class StringUtils {
 		}
 	}
 	
+	public void bla() { } 
+	
 	/**
 	 * Ermittelt das erste Vorkommen eines bestimmten Zeichens und gibt alle Zeichen
 	 * davor zurück.

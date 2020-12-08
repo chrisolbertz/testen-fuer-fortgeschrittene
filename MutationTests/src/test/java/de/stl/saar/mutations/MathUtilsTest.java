@@ -34,7 +34,7 @@ public class MathUtilsTest {
 		
 		@ParameterizedTest
 		@ValueSource(
-		        ints = { 0, 
+		        ints = {0, 
 		        		-1, 
 		        		-2, 
 		        		-3}
@@ -45,10 +45,5 @@ public class MathUtilsTest {
 				MathUtils.calculateDivisorSum(zahl);
 			});
 		}
-	}
-	
-	@Test
-	public void test() {
-		assertTrue(MathUtils.isEmpty("    "));
 	}
 }
